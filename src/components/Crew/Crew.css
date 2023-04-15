@@ -1,0 +1,125 @@
+.crew{
+    background: url(../../../public/image/crew/background-crew-desktop.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.crew-img{
+    position: absolute;
+    width: 568.07px;
+    height: 734px;
+    right: 200px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.crew-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.crew-container{
+    position: absolute;
+    left: 165px;
+    top: 400px;
+    width: 614px;
+}
+
+.crew-desc h2{
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.crew-desc h1{
+    font-size: 56px;
+    margin-bottom: 27px;
+    margin-top: 15px;
+}
+
+.crew-desc p{
+    height: 128px;
+    width: 444px;
+    margin-bottom: 120px;
+}
+
+.crew-nav-items button{
+    width: 15px;
+    height: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #FFFFFF;
+    opacity: 0.17;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.active-crew{
+    opacity: 1 !important;
+}
+
+@media screen and (max-width: 1024px){
+    .crew{
+        background: url(../../../public/image/crew/background-crew-tablet.jpg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .crew-img{
+        position: absolute;
+        width: 436.37px;
+        height: 402px;
+        right: 200px;
+        bottom: 0;
+        overflow: hidden;
+    }
+
+    .crew-container{
+        position: relative;
+        left: 0;
+        top: calc(50% - 300px);
+        width: 50%;
+        margin: 0 auto;
+    }
+    .crew-desc p{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .crew-img{
+        position: absolute;
+        width: 327px;
+        height: 323px;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        margin: 0   auto;
+    }
+
+    
+    .crew-desc p{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .crew-container{
+        position: absolute;
+        left: 5%;
+        top: 25%;
+        width: 100%;
+    }
+
+    .crew-desc h1{
+        font-size: 24px;
+    }
+    
+
+}

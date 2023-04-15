@@ -1,0 +1,162 @@
+.home{
+    background: url(../../../public/image/home/background-home-desktop.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.home-text{
+    position: absolute;
+    width: 480px;
+    height: 382px;
+    left: 165px;
+    top: 387px;
+}
+
+
+.home-text h1{
+    position: absolute;
+    height: 172px;
+    top: calc(50% - 172px/2 - 47px);
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.home-text h3{
+    position: absolute;
+    height: 34px;
+    top: calc(50% - 34px/2 - 174px);
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;   
+    color: #D0D6F9;
+    text-transform: uppercase;
+}
+
+.home-text p{
+    position: absolute;
+    height: 128px;
+    top: calc(50% - 128px/2 + 127px);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    text-align: left;
+}
+
+.home-explore{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    right: 165px;
+    top: 495px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.home-explore h2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px; 
+    letter-spacing: 2px;
+    color: #0B0D17;
+}
+
+@media screen and (max-width: 1024px){
+    .home{
+        background: url(../../../public/image/home/background-home-tablet.jpg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .home-explore{
+        position: relative;
+        width: 240px;
+        height: 240px;
+        top: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+    
+    .home-text h3{
+        position: relative;
+        height: 22px;
+        top: calc(50% - 19px/2 - 128.5px);
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;   
+        text-align: center;
+    }
+    
+    .home-explore h2{
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 1.25px;
+    }
+    .home-text{
+        position: relative;
+        width: 70%;
+        height: 68%;
+        left: 0;
+        top: 33px;
+        margin: 0 auto;
+    }
+    .home-text p{
+        position: relative;
+        height: 128px;
+        top: calc(50% - 128px / 2 + 10px);
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+
+
+    
+    .home-text h1{
+        font-size: 80px;
+        position: relative;
+        top: calc(50% - 100px/2 - 53px);
+        text-align: center;
+        height: 100px;
+        left: 0;
+        margin: 0 auto;
+        line-height: 100px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+
+.home{
+    background: url(../../../public/image/home/background-home-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.home-explore{
+    width: 150px;
+    height: 150px;
+}
+
+.home-text{
+    width: 80%;
+}
+
+}
